@@ -50,7 +50,8 @@ function draw() {
   background(0);
   packageSprite.x= packageBody.position.x 
   packageSprite.y= packageBody.position.y 
-  rect = (ground.position.x,ground.position.y, width, 10 , {isStatic:true} ); 
+   groundSprite.x = ground.position.x
+   groundSprite.y = ground.position.y	
   keyPressed();
   drawSprites();
 }
